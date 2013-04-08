@@ -1,3 +1,5 @@
+# Head First
+
 现在我们对CPU的状态进行异常监测. 方法是每隔一定的时间, 提取这
 一段时间的CPU使用数据, 
 然后根据朴素贝叶斯模型判断是否有异常发生. 
@@ -44,3 +46,5 @@ s0)表示的是机器在异常s = s1的条件下CPU的使用率是c0, . . . , c9
 
 
 现在我们可以根据P(s = s1 | c0, . . . , c9)是否大于0.5来判断机器在时间段t0 - t9内是否异常了.
+
+By the way, Markdown, when are you going to let me write *beautiful* Mathematical formulas?
